@@ -1,11 +1,9 @@
 import './app.css';
-import Header from './components/header/header';
+import Login from './components/login/login';
 
-function App() {
+function App({authService}) {
   return (
-    <>
-    <Header></Header>
-    </>
+    <Login authService={authService}/>
   );
 }
 
