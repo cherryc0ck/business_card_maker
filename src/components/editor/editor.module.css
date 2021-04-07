@@ -1,0 +1,13 @@
+@value makerGreen from '../../common/colors.css';
+
+.editor {
+  flex-basis: 50%;
+  background-color: #189cc4;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 1em;
+  color: makerGreen;
+  text-align: center;
+}
